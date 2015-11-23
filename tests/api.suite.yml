@@ -1,0 +1,7 @@
+class_name: fakeApiTester
+modules:
+    enabled:
+      - REST:
+          url: https://api.github.com
+          depends: PhpBrowser
+          part: Json
