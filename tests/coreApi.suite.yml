@@ -1,0 +1,7 @@
+class_name: CoreApiTester
+modules:
+    enabled:
+      - REST:
+          url: https://core.local
+          depends: PhpBrowser
+          part: Json
